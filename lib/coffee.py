@@ -1,4 +1,7 @@
-#!/usr/bin/env python3
+size = input("Enter the size of the coffee: ")
+price = float(input("Enter the price of the coffee: "))
 
 class Coffee:
-    pass
+    def __init__(self, size, price):
+        self.size = size
+        self.price = price
