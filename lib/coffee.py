@@ -1,4 +1,4 @@
-size = input("Enter the size of the coffee: ")
+size = input("Enter the size of the coffee (small, medium, large): ")
 price = float(input("Enter the price of the coffee: "))
 
 class Coffee:
