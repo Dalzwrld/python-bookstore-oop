@@ -17,9 +17,9 @@ class Coffee:
         if value not in Coffee.SIZE:
             raise ValueError(f"size must be {Coffee.SIZE[0]}, {Coffee.SIZE[1]}, or {Coffee.SIZE[2]}")
         
-    def tip(self, price):
+    def tip(self):
         print("This coffee is great, here's a tip!")
-        price += 1
-        return price
+        self.price += 1
+        return self.price
     
 print(Coffee.__dict__)
