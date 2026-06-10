@@ -15,3 +15,5 @@ class Coffee:
         print("This coffee is great, here's a tip!")
         price += 1
         return price
+    
+print(Coffee.__dict__)
