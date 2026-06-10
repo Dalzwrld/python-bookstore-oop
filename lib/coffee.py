@@ -6,6 +6,10 @@ class Coffee:
         self.size = size
         self.price = price
 
+    @property
+    def size(self):
+        return self._size
+
     @size.setter
     def size(self, value):
         if value not in ["Small", "Medium", "Large"]:
