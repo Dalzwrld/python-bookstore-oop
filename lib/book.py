@@ -15,8 +15,8 @@ class Book:
         if value < 0 or type(value) is not int:
             raise ValueError("page_count must be an integer")
     
-    def turn_page(self):
-        self.page_count += 1
+    def turn_page(self, page_count):
+        page_count += 1
         print("Flipping the page...wow, you read fast!")
 
 
