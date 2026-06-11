@@ -9,8 +9,10 @@ class Book:
 
     @page_count.setter
     def page_count(self, value):
-        if value < 0 or type(value) is not int:
-            raise ValueError("page_count must be an integer")
+        if isinstance(value, int):
+            self._page_count = value
+        else:
+            print("page_count must be an integer")
     
     def turn_page(self):
         self.page_count += 1
