@@ -1,6 +1,3 @@
-title = input("Enter the title of the book: ")
-page_count = int(input("Enter the page count of the book: "))
-
 class Book:
     def __init__(self, title, page_count):
         self.title = title

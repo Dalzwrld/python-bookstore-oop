@@ -1,6 +1,3 @@
-size = input("Enter the size of the coffee (Small, Medium, Large): ")
-price = float(input("Enter the price of the coffee: "))
-
 class Coffee:
     SIZE = ["Small", "Medium", "Large"]
 
@@ -20,6 +17,5 @@ class Coffee:
     def tip(self):
         print("This coffee is great, here's a tip!")
         self.price += 1
-        return self.price
     
 print(Coffee.__dict__)
