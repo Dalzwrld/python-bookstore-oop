@@ -17,8 +17,3 @@ class Book:
     def turn_page(self):
         self.page_count += 1
         print("Flipping the page...wow, you read fast!")
-
-
-book1 = Book("Atomic Habits", 320)
-
-print(book1.__dict__)
